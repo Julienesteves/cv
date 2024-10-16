@@ -23,11 +23,14 @@ body
 }
 
 h1 {
-    font-family: 'GoldenHopes', 'Helvetica', sans-serif;
+
+ 
+      font-family: 'GoldenHopes', 'Helvetica', sans-serif;
 }
 
 h2
 {
+    text-indent: 50px;
     font-family: 'droid_sansregular', 'Arial', sans-serif;
 }
 
@@ -38,14 +41,21 @@ h1, h1 + p
 
 img
 {
-    position: absolute;
-    right : 20px;
-    top: 20px;
+    position: left;
+    right : 80px;
+    top: 80px;
     border: 2px solid grey;
     box-shadow: 2px 2px 2px black;
 }
 
 h2
 {
-    color: #6E4A46;
+    color: #E67E30	;
+    text-shadow: 0.1em 0.1em 0.3em black
+}
+
+body
+{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAA1BMVEWAzeHvFl23AAAALElEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgWHQAAZmS0c0AAAAASUVORK5CYII=");
+    height : 150px;
 }
